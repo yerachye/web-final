@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>main</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href = "bonus.css" rel="stylesheet" >
+</head>
+
+<body>
+    
+    <div class="bar">
+        <nav class = "navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+
+        <a href = "main.html"><img src="img/guitar.png" alt="LOGO" height = "70px" weight = "70px"></a>
+		
+		<a href = "main.html"><button type="button" class="btn btn-primary">Main</button></a>
+		
+		<div class="dropdown">
+          <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+            Guitars
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href = "acoustic.html"><button type="button" class="btn btn-success">Acoustic</button></a>
+            <a class="dropdown-item" href = "electro.html"><button type="button" class="btn btn-success">Electro</button></a>
+            <a class="dropdown-item" href = "bass.html"><button type="button" class="btn btn-success">Bass</button></a>
+            <a class="dropdown-item" href = "classical.html"><button type="button" class="btn btn-success">Classical</button></a>
+            <a class="dropdown-item" href = "ukulele.html"><button type="button" class="btn btn-success">Ukulele</button></a>
+          </div>
+        </div>
+
+        <a href = "equipment.html"><button type="button" class="btn btn-success">Equipment</button></a>
+
+        <a href = "adress.html"><button type="button" class="btn btn-success">Adress</button></a>
+
+        <a href = "contact.html"><button type="button" class="btn btn-success">Contacts</button></a>
+
+        <a href = "service.html"><button type="button" class="btn btn-success">Service</button></a>
+
+        <a href = "sell.html"><button type="button" class="btn btn-success">Sell</button></a>
+
+        
+        
+
+        
+
+        </nav>
+	</div>	
+    
+    
+<form class = "radiof">
+    <h2>Step One:</h2>
+  <p>Please choose your service type:</p>
+  <input type="checkbox" id="pin" value="Pin">
+  <label for="pin">Fixing the Pin of Guitar</label><br>
+  <input type="checkbox" id="strings" value="Strings">
+  <label for="strings">Change Strings of Guitar</label><br>
+  <input type="checkbox" id="corpus" value="Corpus">
+  <label for="corpus">Fixing the Body of Guitar</label><br>
+  <input type="checkbox" id="neck" value="Neck">
+  <label for="neck">Fixing the Neck of Guitar</label><br><br>
+
+  <h2>Step Two:</h2>
+  <label for="service_date">Please, choose date of your Service:</label>
+  <input type="date" id="service_date"><br><br>
+ 
+  <h2>Step Three:</h2>
+  <p>Do you have a discount card of regular customer </p>
+  <input type="radio" id="yes" value="Yes">
+  <label for="vehicle2">YES</label><br>
+  <input type="radio" id="no" value="No">
+  <label for="vehicle3">NO</label><br><br>
+  <input type="submit" value="Submit">
+</form> 
+
+</body>

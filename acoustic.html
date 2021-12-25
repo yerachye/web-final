@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>main</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href = "bonus.css" rel="stylesheet" >
+</head>
+
+<body>
+    
+    <div class="bar">
+        <nav class = "navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+
+        <a href = "main.html"><img src="img/guitar.png" alt="LOGO" height = "70px" weight = "70px"></a>
+		
+		<a href = "main.html"><button type="button" class="btn btn-primary">Main</button></a>
+		
+		<div class="dropdown">
+          <button type="button" class="btn btn-success dropdown-toggle" data-toggle="dropdown">
+            Guitars
+          </button>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href = "acoustic.html"><button type="button" class="btn btn-success">Acoustic</button></a>
+            <a class="dropdown-item" href = "electro.html"><button type="button" class="btn btn-success">Electro</button></a>
+            <a class="dropdown-item" href = "bass.html"><button type="button" class="btn btn-success">Bass</button></a>
+            <a class="dropdown-item" href = "classical.html"><button type="button" class="btn btn-success">Classical</button></a>
+            <a class="dropdown-item" href = "ukulele.html"><button type="button" class="btn btn-success">Ukulele</button></a>
+          </div>
+        </div>
+
+        <a href = "equipment.html"><button type="button" class="btn btn-success">Equipment</button></a>
+
+        <a href = "adress.html"><button type="button" class="btn btn-success">Adress</button></a>
+
+        <a href = "contact.html"><button type="button" class="btn btn-success">Contacts</button></a>
+
+        <a href = "service.html"><button type="button" class="btn btn-success">Service</button></a>
+
+        <a href = "sell.html"><button type="button" class="btn btn-success">Sell</button></a>
+
+        
+        
+
+        
+
+        </nav>
+	</div>	
+
+  
+
+    <h2 class = "heada">An acoustic guitar is a fretted musical instrument that produces sound via vibrating strings above a hollow chamber in the guitar's body. The vibrations carry through the air and do not require electrical amplification </h2>
+    <hr>
+      <h6>You can check price in 2 currencies</h6>
+      <p>
+        
+      </p>
+    <div class = "btn-group">
+      
+      <button type = "button" class="btn btn-warning" onclick = "priceUsa()" class = "exchange">Dollars</button>
+      <button type = "button" class="btn btn-primary" onclick = "priceKz()" class = "exchange">Tenge</button>
+    </div>
+    <hr>
+    
+    <div class="flex-container">
+        <div>
+          <div class = "image">
+            <img src = "img/yamaha f310.jpeg" height="150px" weight = "400px">
+          </div>  
+          <div class = "title">
+            <p>YAMAHA F310</p>
+            <p>Price:</p>
+            <p id = "price1">59900 tg</p>
+            <button type="button" class="btn btn-secondary">Buy it now!</button>
+          </div>
+          <div>
+            
+          </div>
+        </div>
+        <div>
+          <div class = "image">
+            <img src = "img/yamaha fg800.webp" height="150px" weight = "200px">
+          </div>  
+          <div  class = "title">
+            <p>YAMAHA FG800</p>
+            <p>Price:</p>
+            <p id = "price2">49000 tg</p>
+            <button type="button" class="btn btn-secondary">Buy it now!</button>
+          </div>
+        </div>
+        <div>
+          <div class = "image">
+            <img src = "img/yamaha f335.webp" height="150px" weight = "200px">
+          </div> 
+          <div  class = "title">
+            <p>YAMAHA F335</p>
+            <p>Price:</p>
+            <p id = "price3">37500 tg</p>
+            <button type="button" class="btn btn-secondary">Buy it now!</button>
+          </div> 
+        </div>  
+      </div>
+
+      <div class="flex-container">
+        <div>
+          <div class = "image">
+            <img src = "img/fender cd60-s.webp" height="150px" weight = "200px">
+          </div>  
+          <div class = "title">
+            <p>FENDER CD60-S</p>
+            <p>Price:</p>
+            <p id = "price4">87500 tg</p>
+            <button type="button" class="btn btn-secondary">Buy it now!</button>
+          </div>
+        </div>
+        <div>
+          <div class = "image">
+            <img src = "img/fender mah.jpg" height="150px" weight = "200px">
+          </div>  
+          <div class = "title">
+            <p>FENDER SPECIAL MAH</p>
+            <p>Price:</p>
+            <p id= "price5">150000 tg</p>
+            <button type="button" class="btn btn-secondary">Buy it now!</button>
+          </div>
+        </div>
+        <div>
+          <div class = "image">
+            <img src = "img/fender cd60-ce.jpg" height="150px" weight = "200px">
+          </div>  
+          <div class = "title">
+            <p>FENDER CD60-CE</p>
+            <p>Price:</p>
+            <p id = "price6">88000 tg</p>
+            <button type="button" class="btn btn-secondary">Buy it now!</button>
+          </div>
+        </div>  
+      </div>
+
+      
+    <hr>
+    <div class="con">
+      <h2 class = "contactus">Contact Us</h2>
+      <div class="contact">
+          <div class="main">
+              <div class="main-input">
+                  <input type="text" class="input" placeholder="Your name...">
+                  <input type="text" class="input" placeholder="Your email..">
+                  
+              </div>
+              <textarea class="area" placeholder="Your message..."></textarea><br>
+              <button type="button" class="btn btn-secondary">Send Message</button>
+          </div>
+          <div class="info">
+              <p class="first">Phone number</p>
+              <hr>
+              <p class="sec">+7 (777) 777-77-77</p>
+              <button type="button" class="btn btn-secondary">Call</button>
+              <hr>
+              <hr>
+              <p class="first">E-mail</p>
+              <hr>
+              <p class="sec">guitarcave@gamil.com</p>
+              <hr>
+             
+          </div>
+      </div>
+  </div>
+
+      <script>
+        function priceUsa(){
+          document.getElementById("price1").innerHTML = "143$";
+          document.getElementById("price2").innerHTML = "117$";
+          document.getElementById("price3").innerHTML = "89$";
+          document.getElementById("price4").innerHTML = "208$";
+          document.getElementById("price5").innerHTML = "357$";
+          document.getElementById("price6").innerHTML = "210$";
+        }
+
+        function priceKz(){
+          document.getElementById("price1").innerHTML = "59900 tg";
+          document.getElementById("price2").innerHTML = "49000 tg";
+          document.getElementById("price3").innerHTML = "37500 tg";
+          document.getElementById("price4").innerHTML = "87500 tg";
+          document.getElementById("price5").innerHTML = "150000 tg";
+          document.getElementById("price6").innerHTML = "88000 tg";
+        }
+      </script>
+
+    
+</body>
